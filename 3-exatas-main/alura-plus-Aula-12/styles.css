@@ -1,0 +1,115 @@
+/* Fonte padrão */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: #dd350b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Container principal */
+.principal {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container__caixa {
+    text-align: center;
+}
+
+.container__titulo {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.container__imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+.container__botao {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 5px;
+    color: rgb(241, 240, 243);
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao_secundario {
+    background-color: #6c757d;
+}
+
+.container__aviso {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Estilos para seções secundárias */
+.secundario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.secundario__imagem {
+    max-width: 50%;
+    height: auto;
+}
+
+.container__descricao {
+    max-width: 50%;
+}
+
+.descricao__titulo {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.descricao__texto {
+    font-size: 1em;
+    color: #2cda15;
+}
+
+/* Seção de dispositivos */
+.dispositivos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dispositivos__titulo {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.dispositivos__lista {
+    list-style: none;
+    padding: 0;
+}
+
+.dispositivos__lista li {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
